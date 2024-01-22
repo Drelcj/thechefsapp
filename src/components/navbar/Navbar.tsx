@@ -1,47 +1,89 @@
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 fixed bg-blend-color shadow-2xl">
-  <div className="navbar-start">
-    <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
+      <div className="navbar-start">
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <Link href="/school">School</Link>
+            </li>
+            <li>
+              <Link href="/blog">Blog</Link>
+              <ul className="p-2">
+                <li>
+                  <Link href="/blog">Kitchen Cabinet</Link>
+                </li>
+                <li>
+                  <Link href="/blog">Recipes</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link href="/shop">shop</Link>
+            </li>
+          </ul>
+        </div>
+        <Link href="/">
+          <Image
+            src="https://res.cloudinary.com/dt3czltxx/image/upload/v1698897801/The%20Chefs%20Culinary%20Logo.png"
+            alt="The Chefs Culinary Logo"
+            width={50}
+            height={50}
+          />
+        </Link>
       </div>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>School</a></li>
-        <li>
-          <a>Blog</a>
-          <ul className="p-2">
-            <li><a>Kitchen Cabinet</a></li>
-            <li><a>Recipes</a></li>
-          </ul>
-        </li>
-        <li><a>Shop</a></li>
-      </ul>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+          <Link href="/school">School</Link>
+          </li>
+          <li>
+            <details>
+              <summary><Link href="/blog">Blog</Link></summary>
+              <ul className="p-2">
+                <li>
+                  <Link href="/blog">Kitchen Cabinet</Link>
+                </li>
+                <li>
+                <Link href="/blog">Recipes</Link>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <Link href="/shop">shop</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
+        <a className="btn"> Subscribe </a>
+      </div>
     </div>
-    <a className="btn btn-ghost text-xl">The Chefs Logo</a>
-  </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>School</a></li>
-      <li>
-        <details>
-          <summary>Blog</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Shop</a></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn"> Subscribe </a>
-  </div>
-</div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
