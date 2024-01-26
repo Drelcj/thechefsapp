@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 fixed bg-blend-color shadow-2xl">
+    <div className="navbar bg-base-100 fixed w-full bg-blend-color shadow-2xl z-20">
       {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
       <div className="navbar-start">
         <div className="dropdown">
