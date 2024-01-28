@@ -1,4 +1,7 @@
+import Courses from '@/components/courses/Courses'
+import Cravings from '@/components/cravings/Cravings'
 import Hero from '@/components/hero/Hero'
+import Stats from '@/components/stats/Stats'
 import Image from 'next/image'
 
 export default function Home() {
@@ -8,9 +11,10 @@ export default function Home() {
         <Hero />
       </div>
   
-      <div>
-        Courses
-      </div>
+      <div className='divider'></div>
+      <div> <Stats /> </div>
+      <div> <Courses /> </div>
+      <div> <Cravings /></div>
       <div>
         Food Show case
       </div>
