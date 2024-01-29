@@ -19,7 +19,7 @@ const Courses = () => {
           <figure><img src="https://res.cloudinary.com/dt3czltxx/image/upload/v1706415006/course_-_Video_Thumbnail_y6cjqp.png" alt="Course 1" /></figure>
           <div className="card-body">
             <h2 className="card-title text-orange-600">Basic Cookery Course</h2>
-            <p>This is a beginner's class for persons that are interested in learning the basics of what it takes to be a professional in this career path and as well the food service industry at large. This course cuts across different recipes from different parts and continents of the world.</p>
+            <p>This is a beginner&apos;s class for persons that are interested in learning the basics of what it takes to be a professional in this career path and as well the food service industry at large. This course cuts across different recipes from different parts and continents of the world.</p>
             <div className="card-actions justify-end">
               <button className="btn text-white bg-orange-500">Register</button>
             </div>
