@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Courses = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 px-10">
       <div className='flex justify-between'>
       <div>
       <h2 className="text-2xl font-bold pt-4 hover:text-orange-500">Trending Courses</h2>

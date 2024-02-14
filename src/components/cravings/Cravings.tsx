@@ -3,9 +3,10 @@ import Image from 'next/image';
 
 const Cravings = () => {
     return (
-        <div className="relative min-h-screen bg-fixed bg-center bg-cover" style={{backgroundImage: "url('https://res.cloudinary.com/dt3czltxx/image/upload/v1706436902/Instant-Pot-Chicken-Shawarma-1600-2_qnfhsh.jpg')"}}>
+        <div className='pt-40'>
+            <div className="py-10 relative min-h-screen bg-fixed bg-center bg-cover" style={{backgroundImage: "url('https://res.cloudinary.com/dt3czltxx/image/upload/v1706436902/Instant-Pot-Chicken-Shawarma-1600-2_qnfhsh.jpg')"}}>
             <div className="h-full flex items-center justify-center pt-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-content-center">
+                <div className=" px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-content-center">
                     <div className="bg-base-200 p-4 rounded-lg m-auto">
                         <figure>
                             <img src="https://res.cloudinary.com/dt3czltxx/image/upload/t_continental rice/v1706434941/WhatsApp_Image_2024-01-28_at_10.41.42_AM_tmdj4y.jpg" className="rounded-lg" />
@@ -35,6 +36,7 @@ const Cravings = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
