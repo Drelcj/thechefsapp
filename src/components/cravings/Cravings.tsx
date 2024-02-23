@@ -9,11 +9,11 @@ const Cravings = () => {
                 <div className=" px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-content-center">
                     <div className="bg-base-200 p-4 rounded-lg m-auto">
                         <figure>
-                            <img src="https://res.cloudinary.com/dt3czltxx/image/upload/t_continental rice/v1706434941/WhatsApp_Image_2024-01-28_at_10.41.42_AM_tmdj4y.jpg" className="rounded-lg" />
+                            <img src="https://res.cloudinary.com/dt3czltxx/image/upload/v1706192658/The_Chefs_Culiground_nvcmqd.jpg" className="rounded-lg" />
                         </figure> 
                         <div className="mt-2">
-                            <h2 className="text-xl font-bold">Coconut Rice</h2> 
-                            <p className="mt-1">Have a taste of different mix and flavours blended into the Coconut rice experience</p>
+                            <h2 className="text-xl font-bold">Jollof Rice</h2> 
+                            <p className="mt-1">Have a taste of different mix and flavours blended into the Jollof rice experience</p>
                         </div>
                     </div>
                     <div className="bg-base-200 p-4 rounded-lg m-auto">
@@ -27,7 +27,7 @@ const Cravings = () => {
                     </div>
                     <div className="bg-base-200 p-4 rounded-lg m-auto pb-10">
                         <figure>
-                            <img src="https://res.cloudinary.com/dt3czltxx/image/upload/t_continental rice/v1706434941/WhatsApp_Image_2024-01-28_at_10.41.42_AM_tmdj4y.jpg" className="rounded-lg" />
+                            <img src="https://res.cloudinary.com/dt3czltxx/image/upload/v1706192658/The_Chefs_Culiground_nvcmqd.jpg" className="rounded-lg" />
                         </figure> 
                         <div className="mt-2">
                             <h2 className="text-xl font-bold">Coconut rice</h2> 
