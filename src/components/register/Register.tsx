@@ -8,7 +8,7 @@ const register = () => {
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Sign Up now!</h1>
-      <p className="py-6">Want to learn new skills, discover new dishes, and have fun in the kitchen? Sign up with your email and join our Culinary community today. You'll get access to exclusive tips, tricks, and courses from our top chefs and food experts.</p>
+      <p className="py-6">Want to learn new skills, discover new dishes, and have fun in the kitchen? Sign up with your email and join our Culinary community today. You&apos;ll get access to exclusive tips, tricks, and courses from our top chefs and food experts.</p>
     </div>
     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form className="card-body">
