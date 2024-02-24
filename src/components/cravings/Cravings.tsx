@@ -27,7 +27,7 @@ const Cravings = () => {
                     </div>
                     <div className="bg-base-200 p-4 rounded-lg m-auto pb-10">
                         <figure>
-                            <img src="https://res.cloudinary.com/dt3czltxx/image/upload/v1706192658/The_Chefs_Culiground_nvcmqd.jpg" className="rounded-lg" />
+                            <img src="https://res.cloudinary.com/dt3czltxx/image/upload/t_continental rice/v1706434941/WhatsApp_Image_2024-01-28_at_10.41.42_AM_tmdj4y.jpg" className="rounded-lg" />
                         </figure> 
                         <div className="mt-2">
                             <h2 className="text-xl font-bold">Coconut rice</h2> 

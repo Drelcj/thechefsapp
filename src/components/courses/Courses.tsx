@@ -38,7 +38,7 @@ const Courses = () => {
         </div>
 
         <div className="card card-compact w-full md:w-96 bg-base-100 shadow-xl">
-          <figure><img src="https://res.cloudinary.com/dt3czltxx/image/upload/v1706192658/The_Chefs_Culiground_nvcmqd.jpg" alt="Course 3" /></figure>
+          <figure><img src="https://res.cloudinary.com/dt3czltxx/image/upload/v1698814819/cld-sample-4.jpg" alt="Course 3" /></figure>
           <div className="card-body">
             <h2 className="card-title text-orange-600">Professional Diploma in Pastry & Cake Crafting</h2>
             <p>This course offers a combination of Basic Intercontinental Course, African & Intercontinental Arts.</p>
